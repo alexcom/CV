@@ -1,4 +1,4 @@
 baseURL = 'http://cv.l8l.tech/'
 languageCode = 'en-us'
 title = 'Oleksandr Kravets - CV'
-theme = 'criple'
+theme = 'cripple'
