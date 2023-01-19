@@ -1,12 +1,14 @@
-Name: Oleksandr Kravets
-Job title: Java Developer
-Birth date: October, 8th, 1984
-Residence: Ukraine, Kharkiv
-LinkedIn: akravets84
-Mobile, Telegram: +380686030869
-E-mail: a.kravets84@gmail.com
+# Oleksandr Kravets
+|  |  |
+| --- | --- |
+| Job title | Java Developer |
+| Birth date | October, 8th, 1984 |
+| Residence | Ukraine, Kharkiv |
+| LinkedIn | akravets84 |
+| Mobile, Telegram | +380686030869 |
+| E-mail | a.kravets84@gmail.com |
 
-Previous employments:
+## Previous employments
 
 Intellias Ltd., 02.2020 - current
 Position: Senior Java Developer
@@ -55,18 +57,18 @@ Web-application for reserving and managing weld IDs for the automotive industry.
 Technologies & tools: JSF, IBM DB2, IBM WebSphere.
 Responsibilities: updating application’s security to prevent XSS and SQL-injection attacks.
 
-Education:
+## Education:
 2001 – 2006: National aerospace university of N.E. Zhukovsky “KhAI”.
 Faculty of aircraft control systems.
 Speciality : Applied mathematics.
 Qualification: specialist.
 
-Additional education:
+## Additional education
 M101J: MongoDB for Java Developers
 Coursera.org : Functional Programming Principles in Scala
 Coursera.org : Algorithms
 
-Skills:
+## Skills
 Experience in various operating systems including Linux, FreeBSD, Windows, Mac OS X.
 Languages: Go, Java, Lua, С, JavaScript, XML, SQL, Assembler for AVR architecture.
 Libraries and technologies: JSP, Servlet API, EJB, JDBC, JAXP, JAXB, JPA, Spring, Guice, Camel, Apache Commons, Guava, GSON, Jackson, JAX-RS(CXF, Jersey), JMS, JUnit, Mockito, AssertJ.
