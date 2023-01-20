@@ -3,9 +3,9 @@
     <div class="homepage-content">
         {{ with .Site.Data.cv.Person }}
         {{- partial "person.html" . -}}
-        {{- partial "contacts.html" . -}}
+        {{- partial "contacts.html" .Contacts -}}
         {{- partial "employments.html" .Employments -}}
-        {{- partial "education.html" . -}}
+        {{- partial "education.html" .Education -}}
         {{- partial "skills.html" .Skills -}}
         {{ end }}
     </div>

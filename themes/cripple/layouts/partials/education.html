@@ -1,6 +1,5 @@
 <div id="cv-education">
     <h2>Education</h2>
-    {{ with .Person.Education }}
     {{ range .Main }}
     {{ range $k,$v := . }}
     <div class="cv-education">
@@ -22,5 +21,4 @@
             {{ end }}
         </ul>
     </div>
-    {{ end }}
 </div>

@@ -1,7 +1,7 @@
 <div id="cv-person">
-    <h1>{{ .Person.Name }}</h1>
+    <h1>{{ .Name }}</h1>
     <ul>
-        {{ range .Person.Data }}
+        {{ range .Data }}
         {{ range $k,$v := . }}
         <li><span>{{ $k }}</span>: {{ $v }}</li>
         {{ end }}
