@@ -16,7 +16,7 @@ Person:
         Position: Java Developer
         Projects:
           - Multiple services for the telecommunication industry:
-              Stack: Dropwizard, Guice, Guava, Git/Github, JUnit 5, AssertJ, Mockito, Buildkite, SonarQube, Maven, S3, DynamoDB, Lambda, RDS, ECS, SNS, SQS, CloudWatch, CloudFormation and other AWS services
+              Stack: Dropwizard, Guice, Guava, Git/Github, JUnit 5, AssertJ, Mockito, Buildkite, SonarQube, Maven, S3, DynamoDB, Lambda, RDS, ECS, SNS, SQS, CloudWatch, CloudFormation and other AWS services.
               Responsibilities: analyzing existing solution, creating technical design documents, migration of existing Cassandra database to relational model, implementing microservices both new and based on logic extracted from existing monolith, writing unit and integration tests, performing code review, troubleshooting.
     - Brightgrove Ltd.:
         Start: "05.2016"
@@ -25,7 +25,7 @@ Person:
         Projects:
           - Data warehouse building solution:
               Stack: Dropwizard, Guice, Guava, Git, PostgreSQL, JUnit, AssertJ, Mockito, ANTLR 4, Docker Swarm, Kubernetes, GitLab, Jenkins, Nexus, Sonar, Nginx, Maven.
-              Responsibilities: implementing microservices and tests
+              Responsibilities: implementing microservices and tests.
           - Product deployment command line tool:
               Stack: Go, Cobra, Kubernetes API, Docker Swarm API.
               Responsibilities: complete implementation.

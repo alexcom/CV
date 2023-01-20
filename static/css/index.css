@@ -4,24 +4,23 @@ body {
 }
 
 #content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    margin:auto;
+    max-width: 960px;
+    padding: 0 2em;
 }
 
-ul{
+#cv-person ul{
     padding-left: 1ch;
 }
 
-#cv-person ul {
-    padding-left: 1ch;
+#cv-person li {
+    list-style-type: none;
 }
 
-#cv-contacts ul {
+#cv-contacts ul{
     padding-left: 1ch;
 }
-
-ul li {
+#cv-contacts li {
     list-style-type: none;
 }
 
@@ -41,6 +40,31 @@ ul li {
 
 .cv-project {
     margin-left: 1ch;
+}
+
+.cv-project h4{
+    margin-bottom: 1ch;
+}
+
+.cv-project div{
+    margin-bottom: 1ch;
+    padding-left: 1ch;
+}
+
+.cv-education ul{
+    margin-left: 2ch;
+}
+.cv-education li{
+    list-style-type: square;
+}
+
+.cv-education{
+    padding-left: 1ch;
+}
+
+#cv-skills div{
+    margin-left: 1ch;
+    margin-bottom: 0.5em;
 }
 
 #cv-skills ul{

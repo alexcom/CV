@@ -2,16 +2,17 @@
     <h2>Skills & experience</h2>
     {{ range . }}
     {{ range $skill,$content := . }}
-    <span>{{$skill}}</span>:
-    {{ if eq $skill "Additional"}}
-    <ul>
-        {{ range $content }}
-        <li>{{ . }}</li>
+    <div>{{$skill}}:
+        {{ if eq $skill "Additional"}}
+        <ul>
+            {{ range $content }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+        {{ else }}
+        {{$content}}
         {{ end }}
-    </ul>
-    {{ else }}
-    {{$content}}<br>
-    {{ end }}
+    </div>
     {{ end }}
     {{ end }}
 </div>
