@@ -1,0 +1,17 @@
+<div id="cv-skills">
+    <h2>Skills & experience</h2>
+    {{ range . }}
+    {{ range $skill,$content := . }}
+    <span>{{$skill}}</span>:
+    {{ if eq $skill "Additional"}}
+    <ul>
+        {{ range $content }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    {{ else }}
+    {{$content}}<br>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</div>

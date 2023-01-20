@@ -1,7 +1,13 @@
 {{ define "main" }}
-<main aria-role="main">
+<main>
     <div class="homepage-content">
-        {{.Content}}
+        {{ with .Site.Data.cv.Person }}
+        {{- partial "person.html" . -}}
+        {{- partial "contacts.html" . -}}
+        {{- partial "employments.html" .Employments -}}
+        {{- partial "education.html" . -}}
+        {{- partial "skills.html" .Skills -}}
+        {{ end }}
     </div>
 </main>
 {{ end }}

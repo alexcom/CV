@@ -1,0 +1,26 @@
+<div id="cv-employments">
+    <h2>Previous employments</h2>
+    {{ range . }}
+    {{ range $company,$e := . }}
+    <div class="cv-employment">
+        <h3>{{ $company }}</h3>
+        {{ with $e }}
+        <span>Period</span>: {{ .Start }} - {{ .End }}<br>
+        <span>Position</span>: {{ .Position }}<br>
+        <div class="cv-projects">
+            <h3>Projects</h3>
+            {{ range .Projects }}
+            {{ range $projectName,$project := .}}
+            <div class="cv-project">
+                <h4>{{ $projectName }}</h4>
+                <span>Technologies & tools</span>: {{ $project.Stack }}<br>
+                <span>Responsibilities</span>: {{ $project.Responsibilities }}<br>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+</div>

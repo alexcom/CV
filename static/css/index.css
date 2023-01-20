@@ -1,0 +1,53 @@
+body {
+    background: ghostwhite;
+    font: normal 16px/26px sans-serif;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+ul{
+    padding-left: 1ch;
+}
+
+#cv-person ul {
+    padding-left: 1ch;
+}
+
+#cv-contacts ul {
+    padding-left: 1ch;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.cv-employment {
+    padding-left: 1ch;
+}
+
+.cv-employment h3 {
+    margin-bottom: 1ch;
+    margin-top: 1ch;
+}
+
+.cv-employment h4 {
+    margin-bottom: 0;
+    margin-top: 1ch;
+}
+
+.cv-project {
+    margin-left: 1ch;
+}
+
+#cv-skills ul{
+    margin-top: 0;
+    margin-left: 2ch;
+}
+
+#cv-skills li{
+    list-style-type: square;
+}
