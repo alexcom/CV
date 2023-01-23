@@ -45,10 +45,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
-      - name: Install Node.Js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
+#      - name: Install Node.Js
+#        uses: actions/setup-node@v3
+#        with:
+#          node-version: 16
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
@@ -60,11 +60,11 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: HTML to PDF (chrome)
-        uses: frnode/html-to-pdf-action@v1.0.1
+      - name: html to pdf
+        uses: fifsky/html-to-pdf-action@master
         with:
           htmlFile: ./public/index.html
-          outputFile: ./public/kravets-java-dev.pdf
+          outputFile: ./public/resume.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
