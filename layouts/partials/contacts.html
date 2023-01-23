@@ -1,0 +1,9 @@
+<div id="cv-contacts">
+    <h3>Contacts</h3>
+    <div class="cv-property-list">
+        {{ range $k,$v := . }}
+        <div class="cv-key">{{$k}}</div>
+        <div class="cv-value">{{$v}}</div>
+        {{ end }}
+    </div>
+</div>

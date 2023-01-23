@@ -1,10 +1,10 @@
 <div id="cv-person">
     <h1>{{ .Name }}</h1>
-    <ul>
+    <div class="cv-property-list">
         {{ range .Data }}
         {{ range $k,$v := . }}
-        <li><span>{{ $k }}</span>: {{ $v }}</li>
+        <div class="cv-key">{{ $k }}</div> <div class="cv-value">{{ $v }}</div>
         {{ end }}
         {{ end }}
-    </ul>
+    </div>
 </div>

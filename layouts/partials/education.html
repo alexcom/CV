@@ -1,17 +1,13 @@
 <div>
     <h2>Education</h2>
     {{ range .Main }}
-    {{ range $k,$v := . }}
     <div class="cv-education">
-        <h3>{{ $k }}</h3>
-        {{ with $v }}
+        <h3>{{ .Name }}</h3>
         <span>Period</span>: {{ .Start }} - {{ .End }}<br>
         <span>Faculty</span>: {{ .Faculty }}<br>
         <span>Speciality</span>: {{ .Speciality }}<br>
         <span>Qualification</span>: {{ .Qualification }}<br>
-        {{ end }}
     </div>
-    {{ end }}
     {{ end }}
     <div class="cv-education">
         <h3>Additional education</h3>

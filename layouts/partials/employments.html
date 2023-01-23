@@ -1,10 +1,8 @@
 <div id="cv-employments">
     <h2>Previous employments</h2>
     {{ range . }}
-    {{ range $company,$e := . }}
     <div class="cv-employment">
-        <h3>{{ $company }}</h3>
-        {{ with $e }}
+        <h3>{{ .Company }}</h3>
         <span>Period</span>: {{ .Start }} - {{ .End }}<br>
         <span>Position</span>: {{ .Position }}<br>
         <div class="cv-projects">
@@ -19,8 +17,6 @@
             {{ end }}
             {{ end }}
         </div>
-        {{ end }}
     </div>
-    {{ end }}
     {{ end }}
 </div>
