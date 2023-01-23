@@ -56,6 +56,12 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: HTML to PDF (chrome)
+        uses: frnode/html-to-pdf-action@v1.0.1
+        with:
+          htmlFile: ./public/index.html
+          outputFile: ./public/cv.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
