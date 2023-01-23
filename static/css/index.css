@@ -4,32 +4,41 @@ body {
 }
 
 #content {
-    margin:auto;
+    margin: auto;
     max-width: 960px;
     padding: 0 2em;
 }
 
-#cv-pdf{
-    float:right;
+#cv-pdf {
+    float: right;
 }
 
-.cv-property-list{
+@media print {
+    #cv-pdf {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.cv-property-list {
     display: grid;
     grid-template-columns: max-content max-content;
 }
-.cv-key{
+
+.cv-key {
     font-weight: bold;
 }
-.cv-key::after{
+
+.cv-key::after {
     content: ":";
 }
 
-.cv-value{
+.cv-value {
     margin-left: auto;
     margin-right: 0;
 }
 
-#cv-person ul{
+#cv-person ul {
     padding-left: 1ch;
 }
 
@@ -37,7 +46,7 @@ body {
     list-style-type: none;
 }
 
-#cv-contacts ul{
+#cv-contacts ul {
     padding-left: 1ch;
 }
 
@@ -63,36 +72,37 @@ body {
     margin-left: 1ch;
 }
 
-.cv-project h4{
+.cv-project h4 {
     margin-bottom: 1ch;
 }
 
-.cv-project div{
+.cv-project div {
     margin-bottom: 1ch;
     padding-left: 1ch;
 }
 
-.cv-education ul{
+.cv-education ul {
     margin-left: 2ch;
 }
-.cv-education li{
+
+.cv-education li {
     list-style-type: square;
 }
 
-.cv-education{
+.cv-education {
     padding-left: 1ch;
 }
 
-#cv-skills div{
+#cv-skills div {
     margin-left: 1ch;
     margin-bottom: 0.5em;
 }
 
-#cv-skills ul{
+#cv-skills ul {
     margin-top: 0;
     margin-left: 2ch;
 }
 
-#cv-skills li{
+#cv-skills li {
     list-style-type: square;
 }
