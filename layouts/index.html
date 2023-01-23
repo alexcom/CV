@@ -1,6 +1,7 @@
 {{ define "main" }}
 <main>
     <div class="homepage-content">
+        {{- partial "pdf.html" . -}}
         {{ with .Site.Data.cv.Person }}
         {{- partial "person.html" . -}}
         {{- partial "contacts.html" .Contacts -}}
