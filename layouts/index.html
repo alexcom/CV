@@ -2,7 +2,7 @@
 <main>
     <div class="homepage-content">
         {{- partial "pdf.html" . -}}
-        {{ with .Site.Data.cv.Person }}
+        {{ with .Site.Data.cv }}
         {{- partial "person.html" . -}}
         {{- partial "contacts.html" .Contacts -}}
         {{- partial "employments.html" .Employments -}}
