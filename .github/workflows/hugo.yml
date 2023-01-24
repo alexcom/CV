@@ -56,12 +56,17 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: html to pdf
-        uses: fifsky/html-to-pdf-action@master
+#      - name: html to pdf
+#        uses: fifsky/html-to-pdf-action@master
+#        with:
+#          htmlFile: ./public/index.html
+#          outputFile: ./public/o_kravets_sr_java_dev_cv.pdf
+#          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+      - name: pdf
+        uses: markwilson/html2pdf@v1.0
         with:
-          htmlFile: ./public/index.html
-          outputFile: ./public/o_kravets_sr_java_dev_cv.pdf
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+          htmlPath: './public/index.html'
+          pdfName: 'o_kravets_sr_java_dev_cv'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
