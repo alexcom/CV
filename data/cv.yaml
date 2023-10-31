@@ -14,7 +14,10 @@ Employments:
     End: current
     Position: Java Developer
     Projects:
-      - Multiple services for the telecommunication industry:
+      - Services for a smart video surveillance provider:
+          Stack: Amazon AWS, Spring Boot, DynamoDB, S3, MQTT, Github, Harness, Splunk, Jenkins, JUnit, Mockito, Spock, Gradle.
+          Responsibilities: Implementing new features, performance optimization.
+      - Services for the telecommunication industry:
           Stack: Dropwizard, Guice, Guava, Git/Github, JUnit 5, AssertJ, Mockito, Buildkite, SonarQube, Maven, Grafana, Prometheus, S3, DynamoDB, Lambda, RDS, ECS, SNS, SQS, CloudWatch, CloudFormation and other AWS services.
           Responsibilities: analyzing existing solution, creating technical design documents, migration of existing Cassandra database to relational model, implementing microservices both new and based on logic extracted from existing monolith, writing unit and integration tests, performing code review, troubleshooting.
   - Company: Brightgrove Ltd.
@@ -24,10 +27,10 @@ Employments:
     Projects:
       - Data warehouse building solution:
           Stack: Dropwizard, Guice, Guava, Git, PostgreSQL, JUnit, AssertJ, Mockito, ANTLR 4, Docker Swarm, Kubernetes, GitLab, Jenkins, Nexus, Sonar, Nginx, Maven.
-          Responsibilities: implementing microservices and tests.
+          Responsibilities: Implementing microservices and tests.
       - Product deployment command line tool:
           Stack: Go, Cobra, Kubernetes API, Docker Swarm API.
-          Responsibilities: complete implementation.
+          Responsibilities: Complete implementation.
       - Advanced SQL editor with catalog/sharing capability:
           Stack: Dropwizard, Guice, Guava, JUnit 5, AssertJ, Mockito, ANTLR 4, Maven, GitLab, Jenkins, Nexus, Sonar, MapStruct, Lombok, JSON-RPC, H2, Netezza, GreenPlum, PostgreSQL, MS SQL Server, Amazon Redshift, Snowflake.
           Responsibilities: Requirements analysis, implementing  business-logic, writing unit and integration tests, manipulating database schema.
@@ -41,7 +44,7 @@ Employments:
           Responsibilities: Requirements analysis, implementing  business-logic, writing unit and integration tests, manipulating database schema.
       - Trading system:
           Stack: Spring, Spring MVC, GWT, JMS, Hibernate/JPA, PostgreSQL, JUnit, Mockito, Maven, Subversion, TeamCity.
-          Responsibilities: extending existing functionality for trading new types of securities; implementing a number of elements of administrative web-app; writing unit-tests for new functionality using JUnit, Mockito.
+          Responsibilities: Extending existing functionality for trading new types of securities; implementing a number of elements of administrative web-app; writing unit-tests for new functionality.
   - Company: Dev-Pro Inc.
     Start: "02.2013"
     End: "04.2014"
@@ -91,9 +94,13 @@ Skills:
 FAQ:
   - Q: Do you have "ФОП"?
     A: Yes, 3rd group.
-  - Q: Can you do interview in English?
-    A: Yes.
+  - Q: What's you English level?
+    A: Upper intermediate. Both written and spoken. Interviews, communication with customer, writing documentation, etc.
   - Q: What's your location?
-    A: It doesn't matter. I'm safe. Let's assume I'm not where your company has an office or co-working. Ask me again when you need to send me something physical.
+    A: Kremenchuk.
   - Q: Do you have stable electricity and Internet during the war?
     A: No, no one does.
+  - Q: What's your transition period?
+    A: 2-6 weeks depending on current project.
+  - Q: Why are you open for job offers?
+    A: I not necessarily am. I might do interviews for practice. It depends on situation.
