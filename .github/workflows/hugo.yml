@@ -57,7 +57,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: html to pdf
-        uses: fifsky/html-to-pdf-action@master
+        uses: fifsky/html-to-pdf-action@v0.1.0
         with:
           htmlFile: ./public/index.html
           outputFile: ./public/o_kravets_sr_java_dev_cv.pdf
