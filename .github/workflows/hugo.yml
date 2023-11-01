@@ -43,8 +43,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-#      - name: Install Node.js dependencies
-#        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -55,7 +55,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: html to pdf
-        uses: fifsky/html-to-pdf-action@master
+        uses: fifsky/html-to-pdf-action@35abfebcc77bb99c643a6d9218fc4ef24cb1d3ec
         with:
           htmlFile: ./public/index.html
           outputFile: ./public/o_kravets_sr_java_dev_cv.pdf
