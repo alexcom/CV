@@ -55,7 +55,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: html to pdf
-        uses: frnode/html-to-pdf-action@master
+        uses: LukaszLapaj/html-to-pdf-action@master
         with:
           htmlFile: ./public/index.html
           outputFile: ./public/o_kravets_sr_java_dev_cv.pdf
