@@ -14,6 +14,9 @@ Employments:
     End: current
     Position: Java Developer
     Projects:
+      - Internal applications for B2B retailer:
+          Stack: MS SQL Server, MongoDB, Primefaces, JUnit, Mockito, Maven, MS Azure, Jenkins, SonarQube.
+          Responsibilities: Implementing new features, refactoring.
       - Services for a smart video surveillance provider:
           Stack: Amazon AWS, Spring Boot, DynamoDB, S3, MQTT, Github, Harness, Splunk, Jenkins, JUnit, Mockito, Spock, Gradle.
           Responsibilities: Implementing new features, performance optimization.
