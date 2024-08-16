@@ -2,7 +2,7 @@
     <h2>Skills & experience</h2>
     {{ range . }}
     {{ range $skill,$content := . }}
-    <div>{{$skill}}:
+    <div><span style="font-weight: bold">{{$skill}}</span>:
         {{ if eq $skill "Additional"}}
         <ul>
             {{ range $content }}
