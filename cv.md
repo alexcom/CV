@@ -1,0 +1,117 @@
+---
+title: Oleksandr Kravets - CV
+author: Oleksandr Kravets
+date: 2024-03-12
+---
+
+# Oleksandr Kravets
+
+**Java Developer**
+
+- **Birth Date:** October, 8th, 1984
+- **Residence:** Ukraine, Kharkiv (Currently in Kremenchuk)
+- **LinkedIn:** [akravets84](https://www.linkedin.com/in/akravets84)
+- **Mobile:** +380686030869
+- **Telegram:** [@akravets84](https://t.me/akravets84)
+- **eMail:** a.kravets84@gmail.com
+
+---
+
+## Skills
+
+- **OS:** macOS, Linux, FreeBSD, Windows
+- **Programming languages:** Go, Java, Lua, С, JavaScript, XML, SQL, Assembler for AVR architecture
+- **Libraries:** JSP, Servlet API, EJB, JDBC, JAXP, JAXB, JPA, Spring, Guice, Camel, Apache Commons, Guava, GSON, Jackson, JAX-RS(CXF, Jersey), JMS, JUnit, Mockito, AssertJ, OpenFeign, Slf4J, Logback.
+- **Application servers:** Dropwizard, Jetty, Tomcat, JBoss, IBM WebSphere 6.1, Karaf.
+- **IDE:** IntelliJ IDEA, Eclipse, Netbeans.
+- **DBMS:** MySQL, PostgreSQL, Oracle, HSQLDB, H2, Cassandra, MongoDB, Netezza, GreenPlum, MS SQL Server, Amazon Redshift, Snowflake.
+- **Tools:** Maven, Ant, Gradle, Jenkins, Sonar, Findbugs, Checkstyle.
+- **Languages:** English upper intermediate.
+- **Personal qualities:** diligence, proactivity, educability.
+- **Additional:**
+    - Knowledge of software design patterns
+    - Knowledge of microservice patterns
+    - System administration skills
+    - Basic circuitry of microcontroller devices.
+
+---
+
+## Employments
+
+### **Intellias Ltd.** (02.2020 – current)
+*Java Developer*
+
+- **Internal applications for B2B retailer:**
+    - **Stack:** Wildfly, MS SQL Server, MongoDB, Primefaces, JUnit, Mockito, Maven, MS Azure, Jenkins, SonarQube.
+    - **Responsibilities:** Implementing new features, refactoring.
+- **Services for a smart video surveillance provider:**
+    - **Stack:** Amazon AWS, Spring Boot, DynamoDB, S3, MQTT, Github, Harness, Splunk, Jenkins, JUnit, Mockito, Spock, Gradle.
+    - **Responsibilities:** Implementing new features, performance optimization.
+- **Services for the telecommunication industry:**
+    - **Stack:** Dropwizard, Guice, Guava, Git/Github, JUnit 5, AssertJ, Mockito, Buildkite, SonarQube, Maven, Grafana, Prometheus, S3, DynamoDB, Lambda, RDS, ECS, SNS, SQS, CloudWatch, CloudFormation and other AWS services.
+    - **Responsibilities:** analyzing existing solution, creating technical design documents, migration of existing Cassandra database to relational model, implementing microservices both new and based on logic extracted from existing monolith, writing unit and integration tests, performing code review, troubleshooting.
+
+### **Brightgrove Ltd.** (05.2016 – 12.2019)
+*Java/Go Developer*
+
+- **Data warehouse building solution:**
+    - **Stack:** Dropwizard, Guice, Guava, Git, PostgreSQL, JUnit, AssertJ, Mockito, ANTLR 4, Docker Swarm, Kubernetes, GitLab, Jenkins, Nexus, Sonar, Nginx, Maven.
+    - **Responsibilities:** Implementing microservices and tests.
+- **Product deployment command line tool:**
+    - **Stack:** Go, Cobra, Kubernetes API, Docker Swarm API.
+    - **Responsibilities:** Complete implementation.
+- **Advanced SQL editor with catalog/sharing capability:**
+    - **Stack:** Dropwizard, Guice, Guava, JUnit 5, AssertJ, Mockito, ANTLR 4, Maven, GitLab, Jenkins, Nexus, Sonar, MapStruct, Lombok, JSON-RPC, H2, Netezza, GreenPlum, PostgreSQL, MS SQL Server, Amazon Redshift, Snowflake.
+    - **Responsibilities:** Requirements analysis, implementing business-logic, writing unit and integration tests, manipulating database schema.
+
+### **DataArt Inc.** (05.2014 – 05.2016)
+*Java Developer*
+
+- **Advertising trading platform:**
+    - **Stack:** EJB, JAX-RS, AngularJS, Cassandra, JBoss AS 7, OpenRTB.
+    - **Responsibilities:** Requirements analysis, implementing business-logic, writing unit and integration tests, manipulating database schema.
+- **Trading system:**
+    - **Stack:** Spring, Spring MVC, GWT, JMS, Hibernate/JPA, PostgreSQL, JUnit, Mockito, Maven, Subversion, TeamCity.
+    - **Responsibilities:** Extending existing functionality for trading new types of securities; implementing a number of elements of administrative web-app; writing unit-tests for new functionality.
+
+### **Dev-Pro Inc.** (02.2013 – 04.2014)
+*Java Developer*
+
+- **Payment monitoring solution:**
+    - **Stack:** CXF, Jackson, Camel, Spring, Spring Data MongoDB, Hibernate, MongoDB, MySQL, JUnit, Mockito, Maven, Hazelcast, Subversion, Git, Jenkins, Sonar.
+    - **Responsibilities:** implementing a number of REST services using Apache CXF and Jackson with MySQL and MongoDB as underlying databases; writing unit-tests for developed services and their DAO layers using JUnit, Mockito and HSQLDB as a replacement for relational DB in tests.
+
+### **Inno-Web-Tech LLC.** (11.2011 – 02.2013)
+*Java Developer*
+
+- **Desktop application-questionnaire for healthcare organizations:**
+    - **Stack:** Swing, Hibernate, HSQLDB, MySQL, JasperReports, Ant.
+    - **Responsibilities:** implementing a number of tests for questionnaires using Swing, Hibernate, HSQLDB, MySQL.
+- **Web-application for reserving and managing weld IDs for the automotive industry:**
+    - **Stack:** JSF, IBM DB2, IBM WebSphere.
+    - **Responsibilities:** updating application’s security to prevent XSS and SQL-injection attacks.
+
+---
+
+## Education
+
+### **National aerospace university of N.E. Zhukovsky “KhAI”** (2001 – 2006)
+*Faculty:* Aircraft control systems
+*Speciality:* Applied mathematics
+*Qualification:* specialist
+
+### **Additional Education**
+- **M101J:** MongoDB for Java Developers
+- **Coursera.org:** Functional Programming Principles in Scala
+- **Coursera.org:** Algorithms
+
+---
+
+## FAQ
+
+- **Do you have "ФОП"?** Yes, 3rd group.
+- **What's you English level?** Upper intermediate. Both written and spoken. Interviews, communication with customer, writing documentation, etc.
+- **What's your location?** Kremenchuk.
+- **Do you have stable electricity and Internet during the war?** No, no one does.
+- **What's your transition period?** 2-6 weeks depending on agreement with current customer.
+- **Why are you open for job offers?** I not necessarily am. I might do interviews for practice. It depends on situation.

@@ -1,0 +1,77 @@
+name: Deploy CV to Pages
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+
+      - name: Create build directory
+        run: mkdir -p public
+
+      - name: Generate PDF
+        run: |
+          pandoc cv.md -o public/cv.pdf \
+            --pdf-engine=pdflatex \
+            -V margin-top=20mm \
+            -V margin-bottom=20mm \
+            -V margin-left=20mm \
+            -V margin-right=20mm \
+            -V fontsize=11pt \
+            -V colorlinks=true \
+            -V linkcolor=blue
+
+      - name: Generate HTML
+        run: |
+          # Add the download link to the markdown before conversion
+          echo '<a href="cv.pdf" class="download-btn">Download as PDF</a>' > header.html
+          
+          pandoc cv.md -o public/index.html \
+            --standalone \
+            --css style.css \
+            --include-before-body header.html \
+            --metadata title="Oleksandr Kravets - CV"
+
+      - name: Copy CSS and .nojekyll to public
+        run: |
+          cp style.css public/
+          cp .nojekyll public/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
