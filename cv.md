@@ -20,7 +20,7 @@ date: 2024-03-12
 ## Skills
 
 - **OS:** macOS, Linux, FreeBSD, Windows
-- **Programming languages:** Go, Java, Lua, С, JavaScript, XML, SQL, Assembler for AVR architecture
+- **Programming languages:** Go, Java, Lua, C, JavaScript, XML, SQL, Assembler for AVR architecture
 - **Libraries:** JSP, Servlet API, EJB, JDBC, JAXP, JAXB, JPA, Spring, Guice, Camel, Apache Commons, Guava, GSON, Jackson, JAX-RS(CXF, Jersey), JMS, JUnit, Mockito, AssertJ, OpenFeign, Slf4J, Logback.
 - **Application servers:** Dropwizard, Jetty, Tomcat, JBoss, IBM WebSphere 6.1, Karaf.
 - **IDE:** IntelliJ IDEA, Eclipse, Netbeans.

@@ -24,7 +24,7 @@ jobs:
       - name: Install Pandoc and TeX Live
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 
       - name: Create build directory
         run: mkdir -p public
@@ -32,7 +32,7 @@ jobs:
       - name: Generate PDF
         run: |
           pandoc cv.md -o public/cv.pdf \
-            --pdf-engine=pdflatex \
+            --pdf-engine=xelatex \
             -V margin-top=20mm \
             -V margin-bottom=20mm \
             -V margin-left=20mm \
