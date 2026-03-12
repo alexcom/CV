@@ -31,8 +31,16 @@ jobs:
 
       - name: Generate PDF
         run: |
+          GEN_DATE=$(date +"%Y-%m-%d %H:%M:%S")
+          echo "\\usepackage{fancyhdr}" > footer.tex
+          echo "\\pagestyle{fancy}" >> footer.tex
+          echo "\\fancyhf{}" >> footer.tex
+          echo "\\renewcommand{\\headrulewidth}{0pt}" >> footer.tex
+          echo "\\fancyfoot[L]{\\textcolor[gray]{0.7}{\\tiny Generated on: $GEN_DATE}}" >> footer.tex
+          
           pandoc cv.md -o public/cv.pdf \
             --pdf-engine=xelatex \
+            -H footer.tex \
             -V mainfont="DejaVu Sans" \
             -V margin-top=20mm \
             -V margin-bottom=20mm \
@@ -44,8 +52,10 @@ jobs:
 
       - name: Generate HTML
         run: |
+          GEN_DATE=$(date +"%Y-%m-%d %H:%M:%S")
           # Add the download link to the markdown before conversion
           echo '<a href="cv.pdf" class="download-btn">Download as PDF</a>' > header.html
+          echo "<div class=\"gen-date\">Generated on: $GEN_DATE</div>" >> header.html
           
           pandoc cv.md -o public/index.html \
             --standalone \

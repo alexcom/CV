@@ -64,8 +64,20 @@ hr {
     background-color: #34495e;
 }
 
+.gen-date {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    color: #ccc;
+    font-size: 0.7rem;
+    pointer-events: none;
+}
+
 @media print {
     .download-btn {
+        display: none;
+    }
+    .gen-date {
         display: none;
     }
     body {
