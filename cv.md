@@ -20,17 +20,16 @@
 - **IDE:** IntelliJ IDEA, Eclipse, Netbeans.
 - **DBMS:** MySQL, PostgreSQL, Oracle, HSQLDB, H2, Cassandra, MongoDB, Netezza, GreenPlum, MS SQL Server, Amazon Redshift, Snowflake.
 - **Tools:** Maven, Ant, Gradle, Jenkins, Sonar, Findbugs, Checkstyle.
-- **Languages:** English upper intermediate.
-- **Personal qualities:** diligence, proactivity, educability.
+- **Languages:** English (Upper-Intermediate).
+- **Personal Qualities:** Diligence, proactive, fast learner.
 - **Additional:**
     - Knowledge of software design patterns
     - Knowledge of microservice patterns
     - System administration skills
-    - Basic circuitry of microcontroller devices
 
 ---
 
-## Employments
+## Professional Experience
 
 ### **Intellias Ltd.** (02.2020 – current)
 *Java Developer*
@@ -92,9 +91,9 @@
 ### **National aerospace university of N.E. Zhukovsky “KhAI”** (2001 – 2006)
 *Specialist in Applied Mathematics*
 
-- **Faculty:** Aircraft control systems
-- **Speciality:** Applied mathematics
-- **Qualification:** specialist
+- **Department:** Aircraft Control Systems
+- **Major:** Applied Mathematics
+- **Degree:** Specialist Degree
 
 ### **Additional Education**
 - **Coursera.org:** Functional Programming Principles in Scala
@@ -104,26 +103,26 @@
 
 ## FAQ
 
-**Do you have "ФОП"?**
+**Are you registered as an independent contractor (PE/ФОП)?**
 \
-Yes, 3rd group.
+Yes, ФОП 3rd group.
 
-**What's you English level?**
+**What is you English proficiency level?**
 \
-Upper intermediate. Both written and spoken. Interviews, communication with customer, writing documentation, etc.
+Upper Intermediate. Proficient in both written and spoken English. Experienced in conducting interviews, communicating with clients, and technical writing.
 
-**What's your location?**
+**What is your location?**
 \
 Kremenchuk.
 
 **Do you have stable electricity and Internet during the war?**
 \
-No, no one does.
+No, no one does. I do have backup power and fiber optic internet. But both my and internet provider's power backup will be depleted in case of long and complete blackout.
 
-**What's your transition period?**
+**What is your notice period?**
 \
 2-6 weeks depending on agreement with current customer.
 
-**Why are you open for job offers?**
+**Are you actively seeking new opportunities?**
 \
-I not necessarily am. I might do interviews for practice. It depends on situation.
+I am not actively searching, but I am open to discussing compelling opportunities. I also value interview practice to keep my skills sharp.
