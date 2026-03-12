@@ -1,15 +1,9 @@
----
-title: Oleksandr Kravets - CV
-author: Oleksandr Kravets
-date: 2024-03-12
----
-
 # Oleksandr Kravets
 
 **Java Developer**
 
 - **Birth Date:** October, 8th, 1984
-- **Residence:** Ukraine, Kharkiv (Currently in Kremenchuk)
+- **Residence:** Ukraine, Kharkiv (Temporarily Kremenchuk)
 - **LinkedIn:** [akravets84](https://www.linkedin.com/in/akravets84)
 - **Mobile:** +380686030869
 - **Telegram:** [@akravets84](https://t.me/akravets84)
@@ -20,9 +14,9 @@ date: 2024-03-12
 ## Skills
 
 - **OS:** macOS, Linux, FreeBSD, Windows
-- **Programming languages:** Go, Java, Lua, C, JavaScript, XML, SQL, Assembler for AVR architecture
-- **Libraries:** JSP, Servlet API, EJB, JDBC, JAXP, JAXB, JPA, Spring, Guice, Camel, Apache Commons, Guava, GSON, Jackson, JAX-RS(CXF, Jersey), JMS, JUnit, Mockito, AssertJ, OpenFeign, Slf4J, Logback.
-- **Application servers:** Dropwizard, Jetty, Tomcat, JBoss, IBM WebSphere 6.1, Karaf.
+- **Programming languages:** Java, Go, Lua, C, JavaScript, SQL.
+- **Libraries:** JSP, Servlets, EJB, JDBC, JAXP, JAXB, JPA, Spring, Guice, Camel, Apache Commons, Guava, GSON, Jackson, JAX-RS, JMS, JUnit, Mockito, AssertJ, OpenFeign, Slf4J, Logback.
+- **Application servers:** Dropwizard, Jetty, Tomcat, JBoss/Wildfly, IBM WebSphere, Karaf.
 - **IDE:** IntelliJ IDEA, Eclipse, Netbeans.
 - **DBMS:** MySQL, PostgreSQL, Oracle, HSQLDB, H2, Cassandra, MongoDB, Netezza, GreenPlum, MS SQL Server, Amazon Redshift, Snowflake.
 - **Tools:** Maven, Ant, Gradle, Jenkins, Sonar, Findbugs, Checkstyle.
@@ -32,7 +26,7 @@ date: 2024-03-12
     - Knowledge of software design patterns
     - Knowledge of microservice patterns
     - System administration skills
-    - Basic circuitry of microcontroller devices.
+    - Basic circuitry of microcontroller devices
 
 ---
 
@@ -101,7 +95,6 @@ date: 2024-03-12
 *Qualification:* specialist
 
 ### **Additional Education**
-- **M101J:** MongoDB for Java Developers
 - **Coursera.org:** Functional Programming Principles in Scala
 - **Coursera.org:** Algorithms
 
@@ -109,9 +102,36 @@ date: 2024-03-12
 
 ## FAQ
 
-- **Do you have "ФОП"?** Yes, 3rd group.
-- **What's you English level?** Upper intermediate. Both written and spoken. Interviews, communication with customer, writing documentation, etc.
-- **What's your location?** Kremenchuk.
-- **Do you have stable electricity and Internet during the war?** No, no one does.
-- **What's your transition period?** 2-6 weeks depending on agreement with current customer.
-- **Why are you open for job offers?** I not necessarily am. I might do interviews for practice. It depends on situation.
+**Do you have "ФОП"?**
+\
+Yes, 3rd group.
+
+<br>
+
+**What's you English level?**
+\
+Upper intermediate. Both written and spoken. Interviews, communication with customer, writing documentation, etc.
+
+<br>
+
+**What's your location?**
+\
+Kremenchuk.
+
+<br>
+
+**Do you have stable electricity and Internet during the war?**
+\
+No, no one does.
+
+<br>
+
+**What's your transition period?**
+\
+2-6 weeks depending on agreement with current customer.
+
+<br>
+
+**Why are you open for job offers?**
+\
+I not necessarily am. I might do interviews for practice. It depends on situation.
