@@ -2,8 +2,8 @@
 
 **Java Developer**
 
-- **Birth Date:** October, 8th, 1984
-- **Residence:** Ukraine, Kharkiv (Temporarily Kremenchuk)
+- **Date of Birth:** October, 8th, 1984
+- **Location:** Ukraine, Kharkiv (Currently in Kremenchuk)
 - **LinkedIn:** [akravets84](https://www.linkedin.com/in/akravets84)
 - **Mobile:** +380686030869
 - **Telegram:** [@akravets84](https://t.me/akravets84)
@@ -90,9 +90,11 @@
 ## Education
 
 ### **National aerospace university of N.E. Zhukovsky “KhAI”** (2001 – 2006)
-*Faculty:* Aircraft control systems\
-*Speciality:* Applied mathematics\
-*Qualification:* specialist
+*Specialist in Applied Mathematics*
+
+- **Faculty:** Aircraft control systems
+- **Speciality:** Applied mathematics
+- **Qualification:** specialist
 
 ### **Additional Education**
 - **Coursera.org:** Functional Programming Principles in Scala
