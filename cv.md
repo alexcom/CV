@@ -36,13 +36,13 @@
 
 - **Internal applications for B2B retailer:**
     - **Stack:** Wildfly, MS SQL Server, MongoDB, Primefaces, JUnit, Mockito, Maven, MS Azure, Jenkins, SonarQube.
-    - **Responsibilities:** Implementing new features, refactoring.
+    - **Responsibilities:** Developed new features and performed refactoring.
 - **Services for a smart video surveillance provider:**
     - **Stack:** Amazon AWS, Spring Boot, DynamoDB, S3, MQTT, Github, Harness, Splunk, Jenkins, JUnit, Mockito, Spock, Gradle.
-    - **Responsibilities:** Implementing new features, performance optimization.
+    - **Responsibilities:** Developed new features and optimized service performance.
 - **Services for the telecommunication industry:**
     - **Stack:** Dropwizard, Guice, Guava, Git/Github, JUnit 5, AssertJ, Mockito, Buildkite, SonarQube, Maven, Grafana, Prometheus, S3, DynamoDB, Lambda, RDS, ECS, SNS, SQS, CloudWatch, CloudFormation and other AWS services.
-    - **Responsibilities:** analyzing existing solution, creating technical design documents, migration of existing Cassandra database to relational model, implementing microservices both new and based on logic extracted from existing monolith, writing unit and integration tests, performing code review, troubleshooting.
+    - **Responsibilities:** Analyzed existing solutions, designed new microservices, and created technical design documents; migrated an existing Cassandra database to PostgreSQL; implemented microservices; extracted logic from the existing monolithic architecture; wrote comprehensive tests; performed code reviews and occasional troubleshooting.
 
 ### **Brightgrove Ltd.** (05.2016 – 12.2019)
 *Java/Go Developer*
