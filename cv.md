@@ -49,40 +49,40 @@
 
 - **Data warehouse building solution:**
     - **Stack:** Dropwizard, Guice, Guava, Git, PostgreSQL, JUnit, AssertJ, Mockito, ANTLR 4, Docker Swarm, Kubernetes, GitLab, Jenkins, Nexus, Sonar, Nginx, Maven.
-    - **Responsibilities:** Implementing microservices and tests.
+    - **Responsibilities:** Implemented microservices and tests.
 - **Product deployment command line tool:**
     - **Stack:** Go, Cobra, Kubernetes API, Docker Swarm API.
-    - **Responsibilities:** Complete implementation.
-- **Advanced SQL editor with catalog/sharing capability:**
+    - **Responsibilities:** Implemented the tool from scratch.
+- **Advanced SQL editor with query catalog, scripting and sharing capability:**
     - **Stack:** Dropwizard, Guice, Guava, JUnit 5, AssertJ, Mockito, ANTLR 4, Maven, GitLab, Jenkins, Nexus, Sonar, MapStruct, Lombok, JSON-RPC, H2, Netezza, GreenPlum, PostgreSQL, MS SQL Server, Amazon Redshift, Snowflake.
-    - **Responsibilities:** Requirements analysis, implementing business-logic, writing unit and integration tests, manipulating database schema.
+    - **Responsibilities:** Analyzed requirements, implemented business logic, wrote comprehensive tests, managed the database schema.
 
 ### **DataArt Inc.** (05.2014 – 05.2016)
 *Java Developer*
 
 - **Advertising trading platform:**
     - **Stack:** EJB, JAX-RS, AngularJS, Cassandra, JBoss AS 7, OpenRTB.
-    - **Responsibilities:** Requirements analysis, implementing business-logic, writing unit and integration tests, manipulating database schema.
+    - **Responsibilities:** Analyzed requirements, implemented business logic, writing comprehensive tests, managing database schema.
 - **Trading system:**
     - **Stack:** Spring, Spring MVC, GWT, JMS, Hibernate/JPA, PostgreSQL, JUnit, Mockito, Maven, Subversion, TeamCity.
-    - **Responsibilities:** Extending existing functionality for trading new types of securities; implementing a number of elements of administrative web-app; writing unit-tests for new functionality.
+    - **Responsibilities:** Extended existing functionality for trading new types of securities; implemented features for administrative application; wrote tests for new functionality.
 
 ### **Dev-Pro Inc.** (02.2013 – 04.2014)
 *Java Developer*
 
 - **Payment monitoring solution:**
     - **Stack:** CXF, Jackson, Camel, Spring, Spring Data MongoDB, Hibernate, MongoDB, MySQL, JUnit, Mockito, Maven, Hazelcast, Subversion, Git, Jenkins, Sonar.
-    - **Responsibilities:** implementing a number of REST services using Apache CXF and Jackson with MySQL and MongoDB as underlying databases; writing unit-tests for developed services and their DAO layers using JUnit, Mockito and HSQLDB as a replacement for relational DB in tests.
+    - **Responsibilities:** Implemented a number of REST services; wrote tests for new services.
 
 ### **Inno-Web-Tech LLC.** (11.2011 – 02.2013)
 *Java Developer*
 
 - **Desktop application-questionnaire for healthcare organizations:**
     - **Stack:** Swing, Hibernate, HSQLDB, MySQL, JasperReports, Ant.
-    - **Responsibilities:** implementing a number of tests for questionnaires using Swing, Hibernate, HSQLDB, MySQL.
+    - **Responsibilities:** Implemented a number of tests for questionnaires using Swing, Hibernate, HSQLDB, MySQL.
 - **Web-application for reserving and managing weld IDs for the automotive industry:**
     - **Stack:** JSF, IBM DB2, IBM WebSphere.
-    - **Responsibilities:** updating application’s security to prevent XSS and SQL-injection attacks.
+    - **Responsibilities:** Updated application security to prevent XSS and SQL-injection attacks.
 
 ---
 
