@@ -90,8 +90,8 @@
 ## Education
 
 ### **National aerospace university of N.E. Zhukovsky “KhAI”** (2001 – 2006)
-*Faculty:* Aircraft control systems
-*Speciality:* Applied mathematics
+*Faculty:* Aircraft control systems\
+*Speciality:* Applied mathematics\
 *Qualification:* specialist
 
 ### **Additional Education**
@@ -106,31 +106,21 @@
 \
 Yes, 3rd group.
 
-<br>
-
 **What's you English level?**
 \
 Upper intermediate. Both written and spoken. Interviews, communication with customer, writing documentation, etc.
-
-<br>
 
 **What's your location?**
 \
 Kremenchuk.
 
-<br>
-
 **Do you have stable electricity and Internet during the war?**
 \
 No, no one does.
 
-<br>
-
 **What's your transition period?**
 \
 2-6 weeks depending on agreement with current customer.
-
-<br>
 
 **Why are you open for job offers?**
 \

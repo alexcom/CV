@@ -50,8 +50,7 @@ jobs:
           pandoc cv.md -o public/index.html \
             --standalone \
             --css style.css \
-            --include-before-body header.html \
-            --metadata title="Oleksandr Kravets - CV"
+            --include-before-body header.html
 
       - name: Copy CSS and .nojekyll to public
         run: |
