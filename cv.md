@@ -91,10 +91,6 @@
 ### **National aerospace university of N.E. Zhukovsky “KhAI”** (2001 – 2006)
 *Specialist in Applied Mathematics*
 
-- **Department:** Aircraft Control Systems
-- **Major:** Applied Mathematics
-- **Degree:** Specialist Degree
-
 ### **Additional Education**
 - **Coursera.org:** Functional Programming Principles in Scala
 - **Coursera.org:** Algorithms
